@@ -117,5 +117,10 @@ const filter=list.filter(item=>item.age >= 15).map((item)=>{
 })
 console.log(filter)
 
+import {login, logout} from './modules/authentifications'
+
+login()
+logout()
+
 
 
